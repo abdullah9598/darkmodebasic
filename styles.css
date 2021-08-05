@@ -1,0 +1,37 @@
+.carousel-inner > .carousel-item > #navimg {
+  width: 80vw;
+  height: 500px;
+}
+#cards {
+  background-color: black;
+}
+
+/* Media queries */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 0px) and (max-device-width: 480px) {
+  /* Styles */
+  .carousel-inner > .carousel-item > #navimg {
+    height: 200px;
+  }
+
+  #cards {
+    border-bottom: 1px solid white;
+  }
+  #footer {
+    border: transparent;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 760px) {
+  /* Styles */
+  .carousel-inner > .carousel-item > #navimg {
+    height: 300px;
+  }
+  #cards {
+    border-bottom: 1px solid white;
+  }
+  #footer {
+    border: transparent;
+  }
+}
